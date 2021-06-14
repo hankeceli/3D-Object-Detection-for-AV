@@ -83,7 +83,7 @@ RUN tar xzvf boost_1_68_0.tar.gz
 RUN cp -r ./boost_1_68_0/boost /usr/include
 RUN rm -rf ./boost_1_68_0
 RUN rm -rf ./boost_1_68_0.tar.gz
-RUN git clone https://github.com/CankayaUniversity/ceng-407-408-2020-2021-3D-Object-Detection-for-Self-Driving-Cars.git --depth 10
+RUN git clone https://github.com/hankeceli/3D-Object-Detection-for-AV.git --depth 10
 RUN git clone https://github.com/hankeceli/spconv.git --depth 10
 RUN cd ./spconv && python setup.py install && cd .. && rm -rf spconv
 ENV NUMBAPRO_CUDA_DRIVER=/usr/lib/x86_64-linux-gnu/libcuda.so
