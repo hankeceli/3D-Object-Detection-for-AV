@@ -89,7 +89,7 @@ RUN cd ./spconv && python setup.py install && cd .. && rm -rf spconv
 ENV NUMBAPRO_CUDA_DRIVER=/usr/lib/x86_64-linux-gnu/libcuda.so
 ENV NUMBAPRO_NVVM=/usr/local/cuda/nvvm/lib64/libnvvm.so
 ENV NUMBAPRO_LIBDEVICE=/usr/local/cuda/nvvm/libdevice
-ENV PYTHONPATH=/root/ceng-407-408-2020-2021-3D-Object-Detection-for-Self-Driving-Cars
+ENV PYTHONPATH=/root/3D-Object-Detection-for-AV
 
 VOLUME ["/root/data"]
 VOLUME ["/root/model"]
