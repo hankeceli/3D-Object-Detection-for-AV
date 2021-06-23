@@ -93,6 +93,6 @@ ENV PYTHONPATH=/root/3D-Object-Detection-for-AV
 
 VOLUME ["/root/data"]
 VOLUME ["/root/model"]
-WORKDIR /root/ceng-407-408-2020-2021-3D-Object-Detection-for-Self-Driving-Cars/second
+WORKDIR /root/3D-Object-Detection-for-AV/second
 
 ENTRYPOINT ["fish"]
